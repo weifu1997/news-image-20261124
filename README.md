@@ -8,6 +8,8 @@ A one-page newspaper front page that sums up Tuesday 24 November 2026 in six sto
 
 The page is drawn once, at build time, by `render.py` (Python 3 + Pillow, run locally — it is a build tool, not part of the entry program) and shipped as `entry.png`. The entry program itself is a few lines of Node that copy the image to `/output/entry.png`, so both of the grader's runs write identical bytes.
 
+Every story on the page was checked against reports first published on 24 November 2026: several plausible-looking front-page items were left out after checking because they turned out to be 22–23 November news (the Nvidia chief executive's reinstatement, the Democrats' 258-seat House tally, the ICJ's Myanmar ruling, the Kyiv-region toll updates, the German school bomb threats, and the Philippines defence package).
+
 ## Run it
 
 ```sh
